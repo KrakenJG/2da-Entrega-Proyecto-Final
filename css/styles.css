@@ -7,11 +7,11 @@
 }
 body {
     -webkit-font-smoothing: antialiased;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 header {
-    width: 100vw;
+    width: 100%;
     background-color: #7f5a83;
     background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
@@ -31,7 +31,7 @@ article {
     width: 100%; 
 }
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: #0cbaba;
     background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
 }
@@ -71,6 +71,8 @@ footer {
     background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
 }
 
+/*Animaciones*/
+
 .transicion {
     transition: all 300ms;
 }
@@ -82,7 +84,7 @@ footer {
 .fadeAnim {
     animation-name: fade;
     animation-iteration-count: 1;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
 }
     
 @keyframes fade {
